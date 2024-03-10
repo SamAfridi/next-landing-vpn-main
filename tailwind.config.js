@@ -25,8 +25,13 @@ module.exports = {
         600: "#0B132A",
       },
       orange: {
-        100: "#FFECEC",
-        500: "#F53855",
+        // 100: "#FFECEC",
+        // 500: "#F53855",
+
+        // Below color is blue in all coding use orange color name but actual color is blue for shortcut
+        100: "#87CEEB",
+        400: "#87CEFA",
+        500: "#00BFFF",
       },
       green: {
         500: "#2FAB73",
@@ -39,6 +44,11 @@ module.exports = {
         100: "#EEEFF2",
         400: "#AFB5C0",
         500: "#DDDDDD",
+      },
+      blue: {
+        100: "#87CEEB",
+        400: "#87CEFA",
+        500: "#00BFFF",
       },
     },
     extend: {},

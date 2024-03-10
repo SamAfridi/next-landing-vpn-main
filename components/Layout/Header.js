@@ -3,8 +3,8 @@ import Link from "next/link";
 // Import react scroll
 import { Link as LinkScroll } from "react-scroll";
 import ButtonOutline from "../misc/ButtonOutline.";
-import LogoVPN from "../../public/assets/Logo.svg";
-
+//  import Logo from "../../public/assets/logo3.svg";
+import Image from "next/image";
 const Header = () => {
   const [activeLink, setActiveLink] = useState(null);
   const [scrollActive, setScrollActive] = useState(false);
@@ -21,10 +21,19 @@ const Header = () => {
           (scrollActive ? " shadow-md pt-0" : " pt-4")
         }
       >
-        <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
-          <div className="col-start-1 col-end-2 flex items-center">
-            <LogoVPN className="h-8 w-auto" />
+        <nav className=" max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
+          <div className=" ">
+            {/* <Logo  class="h-6 w-6" /> */}
+            <Image
+                  src="/assets/logo1.png"
+                  alt="logo"
+                  quality={100}
+                  width={70}
+                  height={60}
+                  layout="responsive"
+                />
           </div>
+          
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
             <LinkScroll
               activeClass="active"
@@ -38,8 +47,8 @@ const Header = () => {
               className={
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "about"
-                  ? " text-orange-500 animation-active "
-                  : " text-black-500 hover:text-orange-500 a")
+                  ? " text-blue-500 animation-active "
+                  : " text-black-500 hover:text-blue-500 a")
               }
             >
               About
@@ -56,8 +65,8 @@ const Header = () => {
               className={
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "feature"
-                  ? " text-orange-500 animation-active "
-                  : " text-black-500 hover:text-orange-500 ")
+                  ? " text-blue-500 animation-active "
+                  : " text-black-500 hover:text-blue-500 ")
               }
             >
               Feature
@@ -74,8 +83,8 @@ const Header = () => {
               className={
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "pricing"
-                  ? " text-orange-500 animation-active "
-                  : " text-black-500 hover:text-orange-500 ")
+                  ? " text-blue-500 animation-active "
+                  : " text-black-500 hover:text-blue-500 ")
               }
             >
               Service
@@ -92,8 +101,8 @@ const Header = () => {
               className={
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "testimoni"
-                  ? " text-orange-500 animation-active "
-                  : " text-black-500 hover:text-orange-500 ")
+                  ? " text-blue-500 animation-active "
+                  : " text-black-500 hover:text-blue-500 ")
               }
             >
               Testimonial
@@ -113,8 +122,8 @@ const Header = () => {
               className={
                 "px-4 py-2 mx-2 cursor-pointer " +
                 (activeLink === "contactus"
-                  ? " text-orange-500 animation-active "
-                  : " text-black-500 hover:text-orange-500 ")
+                  ? " text-blue-500 animation-active "
+                  : " text-black-500 hover:text-blue-500 ")
               }
             >
                <ButtonOutline>Contact Us</ButtonOutline>
@@ -140,7 +149,7 @@ const Header = () => {
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "about"
-                  ? "  border-orange-500 text-orange-500"
+                  ? "  border-blue-500 text-blue-500"
                   : " border-transparent")
               }
             >
@@ -172,7 +181,7 @@ const Header = () => {
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "feature"
-                  ? "  border-orange-500 text-orange-500"
+                  ? "  border-blue-500 text-blue-500"
                   : " border-transparent ")
               }
             >
@@ -204,7 +213,7 @@ const Header = () => {
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "pricing"
-                  ? "  border-orange-500 text-orange-500"
+                  ? "  border-blue-500 text-blue-500"
                   : " border-transparent ")
               }
             >
@@ -236,7 +245,7 @@ const Header = () => {
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "testimoni"
-                  ? "  border-orange-500 text-orange-500"
+                  ? "  border-blue-500 text-blue-500"
                   : " border-transparent ")
               }
             >

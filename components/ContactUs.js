@@ -1,5 +1,7 @@
 // import React from 'react'
-import Facebook from "./../public/assets/Icon/facebook.svg";
+import Address from "./../public/assets/Icon/address.svg";
+import Phone from "./../public/assets/Icon/phone.svg";
+import Gmail from "./../public/assets/Icon/gmail.svg";
 import React, { useMemo } from "react";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
@@ -30,7 +32,7 @@ const ContactUs = () => {
         <div class="flex flex-col xl:flex-row w-full items-stretch xl:items-center">
             <div class="flex order-2 xl:order-1">
                 <div class="mt-2 bg-white w-10 h-10 rounded-full items-center justify-center flex p-2 shadow-md">
-                    <Facebook class="h-6 w-6" />
+                    <Gmail class="h-6 w-6" />
                 </div>
                 <div class="flex flex-col ml-5 text-left">
                     <p class="text-lg text-black capitalize">
@@ -48,7 +50,7 @@ const ContactUs = () => {
         <div class="flex flex-col xl:flex-row w-full items-stretch xl:items-center">
             <div class="flex order-2 xl:order-1">
                 <div class="mt-2 bg-white w-10 h-10 rounded-full items-center justify-center flex p-2 shadow-md">
-                    <Facebook class="h-6 w-6" />
+                    <Phone class="h-6 w-6" />
                 </div>
                 <div class="flex flex-col ml-5 text-left">
                     <p class="text-lg text-black capitalize">
@@ -66,7 +68,7 @@ const ContactUs = () => {
         <div class="flex flex-col xl:flex-row w-full items-stretch xl:items-center">
             <div class="flex order-2 xl:order-1">
                 <div class="mt-2 bg-white w-10 h-10 rounded-full items-center justify-center flex p-2 shadow-md">
-                    <Facebook class="h-6 w-6" />
+                    <Address class="h-6 w-6" />
                 </div>
                 <div class="flex flex-col ml-5 text-left">
                     <p class="text-lg text-black capitalize">

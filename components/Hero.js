@@ -10,17 +10,17 @@ const Hero = ({
     {
       name: "Users",
       number: "390",
-      icon: "/assets/Icon/heroicons_sm-user.svg",
+      icon: "/assets/Icon/user.svg",
     },
     {
       name: "Locations",
       number: "20",
-      icon: "/assets/Icon/gridicons_location.svg",
+      icon: "/assets/Icon/address.svg",
     },
     {
       name: "Server",
       number: "50",
-      icon: "/assets/Icon/bx_bxs-server.svg",
+      icon: "/assets/Icon/server.svg",
     },
   ],
 }) => {
@@ -37,15 +37,14 @@ const Hero = ({
             variants={scrollAnimation}>
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
               <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-              Streamlining Health with <strong>Care Stream Solutions</strong>.
+              Empowering <strong>  Healthcare Excellence</strong>.
               </h1>
               <p className="text-black-500 mt-4 mb-6">
-              Our mission to enhance healthcare accessibility and efficiency. 
-              Through innovative technologies and compassionate service, 
-              we simplify medical processes, empowering providers to focus on delivering personalized care.
-               By streamlining administrative tasks and optimizing clinical workflows,
-                we prioritize patient well-being while driving better outcomes. With Care Stream Solutions, 
-                healthcare is simplified, ensuring seamless experiences for both providers and patients alike.
+              At CareStream Solutions LLC, our mission is to elevate the standards of credentialing and billing services, providing unparalleled excellence and reliability to healthcare providers. We are dedicated to streamlining the intricate processes of credentialing and billing, ensuring accuracy, efficiency, and compliance at every step.
+
+Driven by a commitment to excellence, we strive to be the trusted partner of healthcare professionals, alleviating the burden of administrative tasks so they can focus on delivering exceptional patient care. Our team of experts harnesses cutting-edge technology and industry knowledge to optimize revenue cycles, maximize reimbursements, and minimize denials.
+
+With integrity and professionalism as our guiding princ…
               </p>
               <ButtonPrimary>Get Started</ButtonPrimary>
             </div>
@@ -74,7 +73,7 @@ const Hero = ({
               variants={scrollAnimation}
             >
               <div className="flex mx-auto w-40 sm:w-auto">
-                <div className="flex items-center justify-center bg-orange-100 w-12 h-12 mr-6 rounded-full">
+                <div className="flex items-center justify-center bg-black-500 w-12 h-12 mr-6 rounded-full">
                   <img src={listUsers.icon} className="h-6 w-6" />
                 </div>
                 <div className="flex flex-col">
