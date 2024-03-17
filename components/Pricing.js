@@ -55,11 +55,11 @@ const Pricing = () => {
                       />
                     </svg>
                   </span>
-                  <h2 className="text-lg font-bold uppercase ">
+                  <h2 className="text-lg font-bold uppercase group-hover:text-white-500 ">
                     Credentialing
                   </h2>
                   <div class="space-y-6 pt-5 text-base leading-7  transition-all duration-300 ">
-                    <p className="text-gray-600  ">
+                    <p className="text-gray-600  group-hover:text-white-500">
                       Perfect for learning how the framework works, prototyping
                       a new idea, or creating a demo to share online.
                     </p>
