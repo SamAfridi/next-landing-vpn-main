@@ -57,7 +57,7 @@ const ContactUs = () => {
                         Call Us For Appointment
                     </p>
                     <p class="text-sm text-black capitalize">
-                        03354203311
+                    +17193141795
                     </p>
                 </div>
             </div>

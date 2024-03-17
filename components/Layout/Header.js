@@ -3,7 +3,7 @@ import Link from "next/link";
 // Import react scroll
 import { Link as LinkScroll } from "react-scroll";
 import ButtonOutline from "../misc/ButtonOutline.";
-//  import Logo from "../../public/assets/logo3.svg";
+  // import Logo from "../../public/assets/logo3.svg";
 import Image from "next/image";
 const Header = () => {
   const [activeLink, setActiveLink] = useState(null);
@@ -22,17 +22,17 @@ const Header = () => {
         }
       >
         <nav className=" max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
-          <div className=" ">
-            {/* <Logo  class="h-6 w-6" /> */}
+          <span>
+            {/* <Logo  class="h-6 w-10 " /> */}
             <Image
                   src="/assets/logo1.png"
                   alt="logo"
                   quality={100}
-                  width={70}
-                  height={60}
-                  layout="responsive"
+                  width={180}
+                  height={100} 
+                  objectFit="cover"
                 />
-          </div>
+          </span>
           
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
             <LinkScroll
