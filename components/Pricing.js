@@ -36,8 +36,8 @@ const Pricing = () => {
 
           <div className="grid gap-14 md:grid-cols-3 md:gap-5 ">
             <div class="relative  flex  flex-col justify-center overflow-hidden bg-gray-50  py-6 sm:py-12">
-              <div class="group relative border-2 border-gray-500  cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl   transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-                <span class="absolute top-10 left-10 z-0 h-20 w-20 rounded-full bg-orange-500 transition-all duration-300 group-hover:scale-[10]"></span>
+              <div class="group relative border-2 border-gray-500  cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl transition-all duration-300  hover:bg-black-500 hover hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+                {/* <span class="absolute top-10 left-10 z-0 h-20 w-20 rounded-full bg-orange-500 transition-all duration-300 group-hover:scale-[10]"></span> */}
                 <div class="relative z-10 mx-auto max-w-md">
                   <span class="grid h-20 w-20 place-items-center rounded-full bg-orange-500 transition-all duration-300 group-hover:bg-orange-400">
                     <svg
@@ -55,12 +55,12 @@ const Pricing = () => {
                       />
                     </svg>
                   </span>
-                  {/* group-hover:text-white-500..Remove that hover from h2 and p */}
-                  <h2 className="text-lg font-bold uppercase ">
+                
+                  <h2 className="text-lg font-bold uppercase group-hover:text-white-500">
                     Credentialing
                   </h2>
-                  <div class="space-y-6 pt-5 text-base leading-7  transition-all duration-300 ">
-                    <p className="text-gray-600  ">
+                  <div class="space-y-6 pt-5 text-base leading-7  ">
+                    <p className="text-gray-600  group-hover:text-white-500">
                       Perfect for learning how the framework works, prototyping
                       a new idea, or creating a demo to share online.
                     </p>
@@ -79,7 +79,7 @@ const Pricing = () => {
               </div>
             </div>
             <div class="relative flex flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
-              <div class="group relative border-2 border-gray-500  cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl   transition-all duration-300 hover:bg-black-500 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+              <div class="group relative border-2 border-gray-500  cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl transition-all duration-300  hover:bg-black-500 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
                 {/* <span class="absolute top-10 left-10 z-0 h-20 w-20 rounded-full bg-orange-500 transition-all duration-300 group-hover:scale-[10]"></span> */}
                 <div class="relative z-10 mx-auto max-w-md">
                   <span class="grid h-20 w-20 place-items-center rounded-full bg-orange-500 transition-all duration-300 group-hover:bg-orange-400">
@@ -101,7 +101,7 @@ const Pricing = () => {
                   <h2 className="text-lg font-bold uppercase group-hover:text-white-500">
                     Medical Billing
                   </h2>
-                  <div class="space-y-6 pt-5 text-base leading-7  transition-all duration-300 ">
+                  <div class="space-y-6 pt-5 text-base leading-7  ">
                     <p className="text-gray-600 group-hover:text-white-500">
                       Often times solo practitioners ask us if they can do their
                       own billing? Yes, you can as long as you are very
@@ -122,8 +122,8 @@ const Pricing = () => {
               </div>
             </div>
             <div class="relative flex  flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
-              <div class="group relative border-2 border-gray-500  cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl   transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-                <span class="absolute top-10 left-10 z-0 h-20 w-20 rounded-full bg-orange-500 transition-all duration-300 group-hover:scale-[10]"></span>
+              <div class="group relative border-2 border-gray-500  cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl transition-all duration-300  hover:bg-black-500 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+                {/* <span class="absolute top-10 left-10 z-0 h-20 w-20 rounded-full bg-orange-500 transition-all duration-300 group-hover:scale-[10]"></span> */}
                 <div class="relative z-10 mx-auto max-w-md">
                   <span class="grid h-20 w-20 place-items-center rounded-full bg-orange-500 transition-all duration-300 group-hover:bg-orange-400">
                     <svg
@@ -144,7 +144,7 @@ const Pricing = () => {
                   <h2 className="text-lg font-bold uppercase group-hover:text-white-500">
                      Contract Negotiations
                   </h2>
-                  <div class="space-y-6 pt-5 text-base leading-7  transition-all duration-300 ">
+                  <div class="space-y-6 pt-5 text-base leading-7   ">
                     <p className="text-gray-600 group-hover:text-white-500">
                       Many insurance companies try to present the lowest
                       reimbursing rates, typically accepted by practices.
@@ -164,8 +164,8 @@ const Pricing = () => {
               </div>
             </div>
             <div class="relative flex  flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
-              <div class="group relative border-2 border-gray-500  cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl   transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-                <span class="absolute top-10 left-10 z-0 h-20 w-20 rounded-full bg-orange-500 transition-all duration-300 group-hover:scale-[10]"></span>
+              <div class="group relative border-2 border-gray-500  cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl transition-all duration-300   hover:bg-black-500 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+                {/* <span class="absolute top-10 left-10 z-0 h-20 w-20 rounded-full bg-orange-500 transition-all duration-300 group-hover:scale-[10]"></span> */}
                 <div class="relative z-10 mx-auto max-w-md">
                   <span class="grid h-20 w-20 place-items-center rounded-full bg-orange-500 transition-all duration-300 group-hover:bg-orange-400">
                     <svg
@@ -249,8 +249,8 @@ const Pricing = () => {
               </div>
             </div>
             <div class="relative flex  flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
-              <div class="group relative border-2 border-gray-500  cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl   transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-                <span class="absolute top-10 left-10 z-0 h-20 w-20 rounded-full bg-orange-500 transition-all duration-300 group-hover:scale-[10]"></span>
+              <div class="group relative border-2 border-gray-500  cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl   transition-all duration-300 hover:bg-black-500 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+                {/* <span class="absolute top-10 left-10 z-0 h-20 w-20 rounded-full bg-orange-500 transition-all duration-300 group-hover:scale-[10]"></span> */}
                 <div class="relative z-10 mx-auto max-w-md">
                   <span class="grid h-20 w-20 place-items-center rounded-full bg-orange-500 transition-all duration-300 group-hover:bg-orange-400">
                     <svg
@@ -290,7 +290,7 @@ const Pricing = () => {
               </div>
             </div>
             <div class="relative flex  flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
-              <div class="group relative border-2 border-gray-500  cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl   transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+              <div class="group relative border-2 border-gray-500  cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl    hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
                 <span class="absolute top-10 left-10 z-0 h-20 w-20 rounded-full bg-orange-500 transition-all duration-300 group-hover:scale-[10]"></span>
                 <div class="relative z-10 mx-auto max-w-md">
                   <span class="grid h-20 w-20 place-items-center rounded-full bg-orange-500 transition-all duration-300 group-hover:bg-orange-400">
