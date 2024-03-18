@@ -79,7 +79,7 @@ const Pricing = () => {
               </div>
             </div>
             <div class="relative flex flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
-              <div class="group relative border-2 border-gray-500  cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl   transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+              <div class="group relative border-2 border-gray-500  cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl   transition-all duration-300 hover:bg-black hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
                 {/* <span class="absolute top-10 left-10 z-0 h-20 w-20 rounded-full bg-orange-500 transition-all duration-300 group-hover:scale-[10]"></span> */}
                 <div class="relative z-10 mx-auto max-w-md">
                   <span class="grid h-20 w-20 place-items-center rounded-full bg-orange-500 transition-all duration-300 group-hover:bg-orange-400">
